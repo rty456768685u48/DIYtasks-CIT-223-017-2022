@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>G.R. No and Course Form</title>
+</head>
+<body>
+    <h1>Enter G.R. No and Course Name</h1>
+    <!-- POST Method -->
+    <form action="post_method.php" method="post">
+        <label for="gr">Enter G.R No:</label><br>
+        <input type="text" id="gr" name="gr_no" required><br><br>
+
+        <label for="course">Enter Course Name:</label><br>
+        <input type="text" id="course" name="course_name" required><br><br>
+
+        <input type="submit" value="Submit via POST">
+    </form>
+
+    <!-- GET Method -->
+    <form action="get_method.php" method="get">
+        <label for="gr">Enter G.R No:</label><br>
+        <input type="text" id="gr" name="gr_no" required><br><br>
+
+        <label for="course">Enter Course Name:</label><br>
+        <input type="text" id="course" name="course_name" required><br><br>
+
+        <input type="submit" value="Submit via GET">
+    </form>
+</body>
+</html>
